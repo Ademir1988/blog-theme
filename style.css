@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+    --bg-color:#E5E6E1;
+    --bg-color-sticky:#96988f;
+    --text-color:#66666e;
+  }
+
+header {
+    position: static;
+    top: 0;
+    width: 100%;       
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link.sticky {
+  color: white;
+}
+
+.nav-brading.sticky{
+  color: white;
+}
+
+.container {
+    width: auto;
+    margin: auto;    
+  
+}
+
+.container.sticky {
+  background-color: var(--bg-color-sticky);
+}
+
+.subcontainer {
+    width: 85%;
+    margin: auto;
+}
+
+.navbar {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.nav-menu.sticky {
+  background-color:var(--bg-color-sticky);
+  
+}
+
+.nav-brading {
+    font-size: 2rem;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+    background-color: black;
+}
+
+.bar.sticky {
+  background-color: #fff;
+}
+
+main {
+    /* background-image: url('https://cdn.pixabay.com/photo/2016/02/27/06/43/erry-blossom-tree-1225186_1280.jpg'); */
+   background-image: url('https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+   background-size: cover;
+   background-position: bottom bottom;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+    padding-top: 10rem;
+    
+    
+}
+
+main h1 {
+    font-size: 150px;
+    text-transform: uppercase;
+    letter-spacing: 10px;    
+}
+main p {
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+main .paragrafe-botton{
+    display: block;    
+    width: 125px;    
+    height: 5px;
+    margin: auto;    
+    background-color: black;
+    border-radius: 10px;
+    
+}
+
+section {
+    background-color: var(--bg-color);
+    height: 110vh;
+    padding-top: 6rem;
+}
+
+section .span-article{
+    display: block;    
+    width: 125px;    
+    height: 5px;
+    margin: auto;    
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    
+}
+
+section h2 {
+    text-align: center;
+    padding-bottom: 1rem;    
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* ------CARD---------  */
+.cards{
+    display: flex;
+    
+}
+
+.card {
+    width: 251px;
+    height: 327px;
+    background: white;
+    padding: .4em;  
+    background-color:#fff;
+    margin: auto;
+    -webkit-box-shadow: 0px 23px 23px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 23px 23px -13px rgba(0,0,0,0.75);
+  box-shadow: 0px 23px 23px -13px rgba(0,0,0,0.75);
+  }
+  
+  .card-image {
+    background-image: url('https://images.pexels.com/photos/175247/pexels-photo-175247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-position: center;   
+    background-size: cover;
+    width: 100%;
+    height: 130px;
+    
+  }
+  .card-image-2{
+    background-image: url('https://images.pexels.com/photos/3295218/pexels-photo-3295218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-position: center;   
+    background-size: cover;
+    width: 100%;
+    height: 130px;
+  }
+
+  .card-image-3{
+    background-image: url('https://images.pexels.com/photos/797793/pexels-photo-797793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-position: center;   
+    background-size: cover;
+    width: 100%;
+    height: 130px;
+  }   
+  
+  .category {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+  }
+  
+  .category:hover {
+    cursor: pointer;
+  }
+  
+  .heading {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+  }
+  
+  .heading:hover {
+    cursor: pointer;
+  }
+  
+  .author {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+  }
+  
+  .name {
+    font-weight: 600;
+  }
+  
+  .name:hover {
+    cursor: pointer;
+  }
+
+  aside {
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    background-color: var(--bg-color);
+  }
+
+  aside .containe-about-image {
+    background-image: url('https://images.pexels.com/photos/1055408/pexels-photo-1055408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-position: center bottom;   
+    background-size: cover;
+    width: 200%;
+    
+  }
+
+  aside .about-me { 
+    text-align: center;
+    align-items: center;
+    width: 170%;
+    padding: 10px;
+    background-color: #cbcdc5;    
+    padding-top: 3rem;
+  } 
+
+  aside .about-me h2 {
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 45px;
+  }
+  aside .span-aboute-me {
+    display: block;    
+    width: 70px;    
+    height: 5px;
+    margin: auto;    
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+  aside p {
+    padding: 30px 2rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;    
+    text-align: center;         
+    background-color: var(--bg-color);
+    height: 60vh;
+  }
+
+  form h2 {
+    text-transform: uppercase;
+    padding-top: 4rem;
+  }
+
+  form p {
+    padding-top: 1rem;
+    font-weight: bold;
+  }
+  form #name {
+    margin: 2rem auto;
+    width: 30%;
+    height: 3rem;
+    border: none;
+    padding-left: 2rem;
+  }
+
+  form #btn-submit {
+    margin: 0 auto;
+    width: 10%;
+    height: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .4rem;
+    cursor: pointer;
+    border: 2px solid black;
+  }
+
+  form #btn-submit:hover {
+    transform: translateY(-2px);
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    background-color: #cbcdc5;
+  }
+
+  footer .social-container .icon {
+    padding: 10px;
+    background-color: #66666e;
+    border-radius: 50%;
+    color: #cbcdc5;
+    cursor: pointer;
+  }
+  
+  footer .nav-footer ul {
+    display: flex;
+    gap: 41px;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--text-color);
+  }
+
+  /* vvvvvvvvv    RESPOSIVIDADE  CELULAR   vvvvvvvvvvvvv */
+
+@media(max-width: 427px){
+
+    .container{
+        width: 101%;
+        position: fixed;
+        background-color: var(--bg-color);
+    }
+    
+    .hamburger {
+        display: block;
+    }
+    
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--bg-color);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;        
+    }
+
+    main {
+        background-position: left;
+        width: 101%;
+    }
+
+    main h1 {
+        font-size: 68px;
+        
+    }
+
+    main p {
+        font-size: 40px;
+    }
+
+    section {
+        padding-top: 4rem;
+        height: 240vh;
+        width: 101%;
+    }
+
+    section h2 {
+        font-size: 39px;
+    }
+
+    .cards{
+        display: block;
+        
+    }
+
+    .card {
+        margin-top: 1rem;
+    }
+
+    aside {
+        display: block;
+    }
+
+    aside .containe-about-image {
+        background-image: url(https://images.pexels.com/photos/1055408/pexels-photo-1055408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+        background-position: center;
+        background-size: cover;
+        height: 22rem;
+         width: 101%;
+       
+    }
+
+    aside .about-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 101%;
+        height: 91vh;
+    }
+
+    aside .span-aboute-me {
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    aside p {
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+    form {
+        width: 101%;
+        margin-top: 22.2rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: var(--bg-color);
+        height: 70vh;
+    }
+
+    form h2 {
+        font-size: xxx-large;
+        text-transform: uppercase;
+        padding-top: 2rem;
+    }
+
+    form #name {
+        margin: 2rem auto;
+        width: 91%;
+        height: 4rem;
+        border: none;
+        padding-left: 2rem;
+    }
+
+    footer {
+      align-items: center;
+      width: 101%;
+      flex-direction: column-reverse;
+      height: 72vh;
+    }
+    
+    footer .nav-footer ul {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    footer .social-container {     
+      display: flex;
+      gap: 1rem;
+      justify-content: space-between;
+    }
+    
+}
+
+/* vvvvvvvvv    RESPOSIVIDADE  TABLET   vvvvvvvvvvvvv */
+
+@media(max-width: 768px){
+    aside .about-me {
+        padding-top: 1rem;
+    }
+
+    aside p {
+        padding: 1px 2rem;
+        vertical-align: middle;
+         display: table-cell;
+    }
+
+    form #btn-submit {
+        width: 16%;
+    }
+
+    form #btn-submit {
+        width: 30%;
+        margin: -9px auto;
+    }
+
+    form h2 {
+        letter-spacing: 0.5rem;
+    }
+}

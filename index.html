@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Blog Theme</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="subcontainer">
+                <nav class="navbar">
+                    <a href="#" class="nav-brading">LO</a>
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="#about-me" class="nav-link" id="about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#articles" class="nav-link" id="article">ARTICLES</a>
+                        </li>                        
+                        <li class="nav-item">
+                            <a href="#subscribe-container" class="nav-link" id="subscribe">SUBSCRIBE</a>
+                        </li>
+                    </ul>
+
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>                
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-text">
+            <h1>lombok</h1>
+            <P>holistic health</P>
+            <span class="paragrafe-botton"></span>
+        </div>
+
+    </main>
+
+    <section id="articles">
+        <h2>latest articles</h2>
+        <span class="span-article"></span>
+
+        <div class="cards">
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="category"> Illustration </div>
+                <div class="heading"> A heading that must span over two lines
+                    <div class="author"> By <span class="name">Abi</span> 4 days ago</div>
+                </div>            
+            </div>
+    
+            <div class="card">
+                <div class="card-image-2"></div>
+                <div class="category"> Illustration </div>
+                <div class="heading"> A heading that must span over two lines
+                    <div class="author"> By <span class="name">Abi</span> 4 days ago</div>
+                </div>            
+            </div>
+    
+            <div class="card">
+                <div class="card-image-3"></div>
+                <div class="category"> Illustration </div>
+                <div class="heading"> A heading that must span over two lines
+                    <div class="author"> By <span class="name">Abi</span> 4 days ago</div>
+                </div>            
+            </div>
+        </div>
+    </section>
+    <aside>
+        <div class="containe-about-image">
+
+        </div>
+        <div class="about-me" id="about-me">
+            <h2>about</h2>
+            <span class="span-aboute-me"></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium mollitia voluptatem deserunt reprehenderit explicabo voluptatibus, minima repellat molestias nostrum provident a reiciendis iusto nihil temporibus optio repudiandae quibusdam voluptates ducimus.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, quae ea? Exercitationem laboriosam ipsam nulla et voluptas libero sunt, quaerat amet a laborum fugiat ullam quidem in repellendus laudantium iste.
+            </p>
+        </div>
+
+    </aside>
+    
+    <form id="subscribe-container">
+        <h2>subscribe</h2>
+        <p>Sign-up to our newletter</p>
+        <input type="text" id="name" name="name" placeholder="Enter your email">
+        <input type="submit" value="submit" id="btn-submit">
+    </form>
+    
+    <footer id="footer">
+        <div class="social-container">
+            <i class="fa-brands fa-instagram icon"></i>
+            <i class="fa-brands fa-twitter icon"></i>
+            <i class="fa-brands fa-facebook-f icon"></i>
+            <i class="fa-solid fa-envelope icon"></i>
+        </div>
+        <nav class="nav-footer">
+            <ul>
+                <li id="go-to-about-me">ABOUT</li>
+                <li id="go-to-articles">ARTICLES</li>
+                <li id="go-to-subscribe">SUBSCRIBE</li>
+            </ul>
+        </nav>
+        
+    </footer>
+</body>
+</html>
