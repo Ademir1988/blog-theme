@@ -346,9 +346,10 @@ section h2 {
   /* vvvvvvvvv    RESPOSIVIDADE  CELULAR   vvvvvvvvvvvvv */
 
 @media(max-width: 427px){
+ 
 
     .container{
-        width: 101%;
+        width: 100%;
         position: fixed;
         background-color: var(--bg-color);
     }
@@ -387,7 +388,7 @@ section h2 {
 
     main {
         background-position: left;
-        width: 101%;
+        width: 100%;
     }
 
     main h1 {
@@ -401,8 +402,8 @@ section h2 {
 
     section {
         padding-top: 4rem;
-        height: 240vh;
-        width: 101%;
+        height: 146vh;
+        width: 100%;
     }
 
     section h2 {
@@ -427,7 +428,7 @@ section h2 {
         background-position: center;
         background-size: cover;
         height: 22rem;
-         width: 101%;
+         width: 100%;
        
     }
 
@@ -435,7 +436,7 @@ section h2 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 101%;
+        width: 100%;
         height: 91vh;
     }
 
@@ -450,7 +451,7 @@ section h2 {
     }
 
     form {
-        width: 101%;
+        width: 100%;
         margin-top: 22.2rem;
         display: flex;
         flex-direction: column;
@@ -475,7 +476,7 @@ section h2 {
 
     footer {
       align-items: center;
-      width: 101%;
+      width: 100%;
       flex-direction: column-reverse;
       height: 72vh;
     }
@@ -504,7 +505,7 @@ section h2 {
         padding: 1px 2rem;
         vertical-align: middle;
          display: table-cell;
-    }
+    }    
 
     form #btn-submit {
         width: 16%;
@@ -518,4 +519,4 @@ section h2 {
     form h2 {
         letter-spacing: 0.5rem;
     }
-}
+} 
