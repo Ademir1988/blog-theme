@@ -343,7 +343,39 @@ section h2 {
     color: var(--text-color);
   }
 
-  /* vvvvvvvvv    RESPOSIVIDADE  CELULAR   vvvvvvvvvvvvv */
+
+  /* vvvvvvvvv     TABLET   vvvvvvvvvvvvv */
+
+  @media(max-width: 768px){
+
+    section {
+      height: 116vh;
+    }
+      aside .about-me {
+          padding-top: 1rem;
+      }
+  
+      aside p {
+          padding: 1px 2rem;
+          vertical-align: middle;
+           display: table-cell;
+      }    
+  
+      form #btn-submit {
+          width: 16%;
+      }
+  
+      form #btn-submit {
+          width: 30%;
+          margin: -9px auto;
+      }
+  
+      form h2 {
+          letter-spacing: 0.5rem;
+      }
+  } 
+
+  /* vvvvvvvvv    MOBILE   vvvvvvvvvvvvv */
 
 @media(max-width: 427px){
  
@@ -351,7 +383,7 @@ section h2 {
     .container{
         width: 100%;
         position: fixed;
-        background-color: var(--bg-color);
+        
     }
     
     .hamburger {
@@ -402,7 +434,7 @@ section h2 {
 
     section {
         padding-top: 4rem;
-        height: 183vh;
+        height: 244vh;
         width: 100%;
     }
 
@@ -494,29 +526,5 @@ section h2 {
     
 }
 
-/* vvvvvvvvv    RESPOSIVIDADE  TABLET   vvvvvvvvvvvvv */
 
-@media(max-width: 768px){
-    aside .about-me {
-        padding-top: 1rem;
-    }
 
-    aside p {
-        padding: 1px 2rem;
-        vertical-align: middle;
-         display: table-cell;
-    }    
-
-    form #btn-submit {
-        width: 16%;
-    }
-
-    form #btn-submit {
-        width: 30%;
-        margin: -9px auto;
-    }
-
-    form h2 {
-        letter-spacing: 0.5rem;
-    }
-} 
