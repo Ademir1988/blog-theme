@@ -42,6 +42,7 @@ a {
 .container {
     width: auto;
     margin: auto;    
+    background-color: var(--bg-color);
   
 }
 
