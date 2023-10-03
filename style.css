@@ -434,8 +434,9 @@ section h2 {
 
     section {
         padding-top: 4rem;
-        height: 244vh;
+        height: 100%;
         width: 100%;
+        padding-bottom: 2rem;
     }
 
     section h2 {
@@ -449,6 +450,7 @@ section h2 {
 
     .card {
         margin-top: 1rem;
+        
     }
 
     aside {
